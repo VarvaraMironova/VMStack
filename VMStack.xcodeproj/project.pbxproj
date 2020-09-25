@@ -14,6 +14,7 @@
 		D74ADE8024E3411500C127A3 /* VMStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74ADE7F24E3411500C127A3 /* VMStackTests.swift */; };
 		D74ADE8B24E3412B00C127A3 /* VMStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74ADE8A24E3412B00C127A3 /* VMStack.swift */; };
 		D7562C9A24FEF3BD009B9474 /* VMSortableStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7562C9924FEF3BD009B9474 /* VMSortableStack.swift */; };
+		D77FE80C251E3B88001AC19A /* VMStack.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D77FE80B251E3B88001AC19A /* VMStack.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D74ADE8124E3411500C127A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74ADE8A24E3412B00C127A3 /* VMStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMStack.swift; sourceTree = "<group>"; };
 		D7562C9924FEF3BD009B9474 /* VMSortableStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMSortableStack.swift; sourceTree = "<group>"; };
+		D77FE80B251E3B88001AC19A /* VMStack.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VMStack.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				D74ADE6724E3410F00C127A3 /* VMStack */,
 				D74ADE7E24E3411500C127A3 /* VMStackTests */,
 				D74ADE6624E3410F00C127A3 /* Products */,
+				D77FE80B251E3B88001AC19A /* VMStack.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77FE80C251E3B88001AC19A /* VMStack.podspec in Resources */,
 				D74ADE7524E3411400C127A3 /* LaunchScreen.storyboard in Resources */,
 				D74ADE7224E3411400C127A3 /* Assets.xcassets in Resources */,
 				D74ADE7024E3411000C127A3 /* Main.storyboard in Resources */,
@@ -385,7 +389,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.varvaraMironova.VMStack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -404,7 +408,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.varvaraMironova.VMStack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
