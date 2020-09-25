@@ -52,6 +52,8 @@ public class VMSortableStack {
         return text + "\nbottom]"
     }
     
+    public init() {}
+    
     //Sortable stack elements must conform to protocol Comparable
     //Todo:
     // 1) accept type Any for an element

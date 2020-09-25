@@ -40,6 +40,8 @@ public class VMStack {
         return text + "\n]"
     }
     
+    public init() {}
+    
     public func push(element: Any) {
         let next = peek
         peek = VMStackElement(data: element)
