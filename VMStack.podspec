@@ -6,8 +6,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/VarvaraMironova/VMStack.git"
   spec.license      = "MIT"
   spec.author             = "Varvara Myronova"
-  spec.social_media_url   = "https://linkedin.com/in/varvara-mironova-29381b114/"
+  spec.social_media_url   = "https://www.linkedin.com/in/varvara-mironova-29381b114/"
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/VarvaraMironova/VMStack.git", :tag => "v1.0.0" }
+  spec.source       = { :git => "https://github.com/VarvaraMironova/VMStack.git", :branch => "master" }
   spec.source_files  = "VMStack", "VMSortableStack"
+  spec.swift_version = "5"
 end
