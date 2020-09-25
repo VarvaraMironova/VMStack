@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.author             = "Varvara Myronova"
   spec.social_media_url   = "https://linkedin.com/in/varvara-mironova-29381b114/"
   spec.platform     = :ios, "5.0"
-  spec.source       = { :git => "https://github.com/VarvaraMironova/VMStack.git", :tag => "v1.0.0" }
+  spec.source       = { :git => "https://github.com/VarvaraMironova/VMStack/Podspecs.git", :tag => "v1.0.0" }
   spec.source_files  = "VMStack", "VMSortableStack"
 end
