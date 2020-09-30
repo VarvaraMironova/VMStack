@@ -8,7 +8,6 @@ Pod::Spec.new do |spec|
   spec.author       = 'Varvara Myronova'
   spec.platform     = :ios, '8.0'
   spec.source       = { :git => 'https://github.com/VarvaraMironova/VMStack.git', :tag => 'v1.0.3' }
-  spec.source_files  = 'VMStack.swift', 'VMSortableStack.swift'
-  spec.exclude_files = "Info.plist"
+  spec.source_files  = 'Sources/*.swift'
   spec.swift_version = '5.2'
 end
