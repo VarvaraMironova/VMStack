@@ -21,9 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		D7CC52672523DDE10017CD55 /* VMSortableStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC52642523DDE10017CD55 /* VMSortableStack.swift */; };
-		D7CC52682523DDE10017CD55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC52652523DDE10017CD55 /* AppDelegate.swift */; };
-		D7CC526A2523DE930017CD55 /* VMStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC52692523DE920017CD55 /* VMStack.swift */; };
+		D7CC52762524DCD90017CD55 /* VMSortableStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC526C2524DCD90017CD55 /* VMSortableStack.swift */; };
+		D7CC52782524DCD90017CD55 /* VMStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC526D2524DCD90017CD55 /* VMStack.swift */; };
+		D7CC52792524DCD90017CD55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC526F2524DCD90017CD55 /* AppDelegate.swift */; };
 		OBJ_32 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_43 /* VMStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* VMStackTests.swift */; };
 /* End PBXBuildFile section */
@@ -46,15 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D7CC525C2523DDCC0017CD55 /* VMStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VMStackTests.xctest; path = /Users/varvaramyronova/Documents/projects/VMStack/build/Debug/VMStackTests.xctest; sourceTree = "<absolute>"; };
 		D7CC525D2523DDE00017CD55 /* VMStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VMStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7CC52602523DDE10017CD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D7CC52622523DDE10017CD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		D7CC52632523DDE10017CD55 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7CC52642523DDE10017CD55 /* VMSortableStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMSortableStack.swift; sourceTree = "<group>"; };
-		D7CC52652523DDE10017CD55 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7CC52662523DDE10017CD55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D7CC52692523DE920017CD55 /* VMStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMStack.swift; sourceTree = "<group>"; };
+		D7CC526C2524DCD90017CD55 /* VMSortableStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VMSortableStack.swift; path = Sources/VMSortableStack.swift; sourceTree = "<group>"; };
+		D7CC526D2524DCD90017CD55 /* VMStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VMStack.swift; path = Sources/VMStack.swift; sourceTree = "<group>"; };
+		D7CC526E2524DCD90017CD55 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		D7CC526F2524DCD90017CD55 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Sources/AppDelegate.swift; sourceTree = "<group>"; };
+		D7CC52722524DCD90017CD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7CC52742524DCD90017CD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		D7CC52752524DCD90017CD55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/Assets.xcassets; sourceTree = "<group>"; };
+		D7CC52772524DCD90017CD55 /* VMStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VMStackTests.xctest; path = "/Users/varvaramyronova/Documents/projects/VMStack/build/Debug-iphoneos/VMStackTests.xctest"; sourceTree = "<absolute>"; };
 		OBJ_12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		OBJ_13 /* VMStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMStackTests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -81,13 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7CC525E2523DDE10017CD55 /* Base.lproj */ = {
+		D7CC52702524DCD90017CD55 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				D7CC525F2523DDE10017CD55 /* LaunchScreen.storyboard */,
-				D7CC52612523DDE10017CD55 /* Main.storyboard */,
+				D7CC52712524DCD90017CD55 /* LaunchScreen.storyboard */,
+				D7CC52732524DCD90017CD55 /* Main.storyboard */,
 			);
-			path = Base.lproj;
+			name = Base.lproj;
+			path = Sources/Base.lproj;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -125,23 +126,14 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* VMStack */,
+				D7CC526F2524DCD90017CD55 /* AppDelegate.swift */,
+				D7CC52752524DCD90017CD55 /* Assets.xcassets */,
+				D7CC52702524DCD90017CD55 /* Base.lproj */,
+				D7CC526E2524DCD90017CD55 /* Info.plist */,
+				D7CC526C2524DCD90017CD55 /* VMSortableStack.swift */,
+				D7CC526D2524DCD90017CD55 /* VMStack.swift */,
 			);
 			name = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_8 /* VMStack */ = {
-			isa = PBXGroup;
-			children = (
-				D7CC52652523DDE10017CD55 /* AppDelegate.swift */,
-				D7CC52692523DE920017CD55 /* VMStack.swift */,
-				D7CC52642523DDE10017CD55 /* VMSortableStack.swift */,
-				D7CC52662523DDE10017CD55 /* Assets.xcassets */,
-				D7CC525E2523DDE10017CD55 /* Base.lproj */,
-				D7CC52632523DDE10017CD55 /* Info.plist */,
-			);
-			name = VMStack;
-			path = Sources/VMStack;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -191,7 +183,7 @@
 			);
 			name = VMStackTests;
 			productName = VMStackTests;
-			productReference = D7CC525C2523DDCC0017CD55 /* VMStackTests.xctest */;
+			productReference = D7CC52772524DCD90017CD55 /* VMStackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -203,8 +195,14 @@
 				LastSwiftMigration = 9999;
 				LastUpgradeCheck = 9999;
 				TargetAttributes = {
+					"VMStack::SwiftPMPackageDescription" = {
+						DevelopmentTeam = 7JA4Q6L7YY;
+						ProvisioningStyle = Automatic;
+					};
 					"VMStack::VMStack" = {
+						DevelopmentTeam = 7JA4Q6L7YY;
 						LastSwiftMigration = 1150;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -234,9 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				D7CC526A2523DE930017CD55 /* VMStack.swift in Sources */,
-				D7CC52682523DDE10017CD55 /* AppDelegate.swift in Sources */,
-				D7CC52672523DDE10017CD55 /* VMSortableStack.swift in Sources */,
+				D7CC52792524DCD90017CD55 /* AppDelegate.swift in Sources */,
+				D7CC52762524DCD90017CD55 /* VMSortableStack.swift in Sources */,
+				D7CC52782524DCD90017CD55 /* VMStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,18 +270,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D7CC525F2523DDE10017CD55 /* LaunchScreen.storyboard */ = {
+		D7CC52712524DCD90017CD55 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D7CC52602523DDE10017CD55 /* Base */,
+				D7CC52722524DCD90017CD55 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D7CC52612523DDE10017CD55 /* Main.storyboard */ = {
+		D7CC52732524DCD90017CD55 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D7CC52622523DDE10017CD55 /* Base */,
+				D7CC52742524DCD90017CD55 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -295,8 +293,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7JA4Q6L7YY;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,9 +312,10 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = VMStack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varvaramyronova.vmstack;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -328,8 +330,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7JA4Q6L7YY;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,9 +349,10 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = VMStack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varvaramyronova.vmstack;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
@@ -359,8 +365,15 @@
 		OBJ_29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JA4Q6L7YY;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				LD = /usr/bin/true;
+				MARKETING_VERSION = 1.0.3;
 				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.varvaramyronova.vmstack;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -384,7 +397,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -395,8 +408,15 @@
 		OBJ_30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JA4Q6L7YY;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				LD = /usr/bin/true;
+				MARKETING_VERSION = 1.0.3;
 				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.varvaramyronova.vmstack;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -429,7 +449,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
